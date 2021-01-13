@@ -11,7 +11,7 @@ class Paper{
       this.y = y;
       this.r = r;
       this.body = Bodies.circle(this.x,this.y,this.r/3,options);
-      this.image = loadImage("images/paper.png")
+      this.image = loadImage("paper.png")
       World.add(world,this.body);
     }
     display(){
