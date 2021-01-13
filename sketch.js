@@ -9,7 +9,7 @@ var box1,box2,box3,dustbinImg;
 
 function preload()
 {
-	dustbinImg = loadImage("images/dustbingreen.png")
+	dustbinImg = loadImage("dustbingreen.png")
 }
 
 function setup() {
